@@ -1,0 +1,124 @@
+
+
+.NabVar {
+    width: 100vw;
+    padding: 8px 15px 5px 15px;
+    background: rgb(90, 147, 235);
+    background: linear-gradient(356deg, rgba(90, 147, 235, 1) 0%, rgba(117, 172, 240, 1) 20%, rgba(145, 197, 245, 1) 40%, rgba(172, 221, 250, 1) 60%, rgba(199, 246, 255, 1) 80%);
+    color: black;
+    
+    
+
+    
+}
+
+.NameTitle {
+    font-size: medium;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    padding: 0;
+    margin: 0;
+    object-fit: fill;
+
+}
+
+.Btn {
+    position: relative;
+    height: 65px;
+    width: 210px;
+    margin: 0 40px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    overflow: hidden;
+    transition: 0.6s;
+    
+    
+}
+.Btn:first-child {
+    color: #206592;
+    border-color: #206592;
+}
+
+/* .Btn:last-child {
+    color: #ce5c0c;
+    border-color: #ce5c0c;
+} */
+.Btn:nth-child(n){
+    color: #206592;
+    border-color: #206592;
+} 
+
+.Btn:before,
+.Btn:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+}
+
+
+
+button:before{
+  width: 60px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+.Btn:after{
+  width: 30px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+.Btn:hover:before,
+.Btn:hover:after{
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+.Btn:hover{
+  color: #f2f2f2;
+}
+.Btn:hover:first-child{
+  background: #206592;
+}
+/* .Btn:hover:nth-child(n){
+  background: #ce5c0c;
+}:before{
+    width: 60px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  } */
+  .Btn:after{
+    width: 30px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  .Btn:hover:before,
+  .Btn:hover:after{
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+  .Btn:hover{
+    color: #f2f2f2;
+  }
+  /* .Btn:hover:first-child{
+    background: #206592;
+  } */
+  .Btn:hover:nth-child(n){
+    /* background: #ce5c0c; */
+    background: #206592;
+  }
+
+  

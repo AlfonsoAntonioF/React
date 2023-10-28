@@ -17,28 +17,29 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 const NavBar = () => {
   return (
     <div>
-      <Flex p="5" w="100vw">
+      <Flex className="NabVar">
         <Box>
           <Image
+            className="logo"
             borderRadius="full"
-            boxSize="50px"
-            src="https://bit.ly/dan-abramov"
-            alt="Dan Abramov"
+            src="../src/assets/logo1.png"
+            alt="GENIUM"
           />
-          <h1>LoboSimulador</h1>
+          <h1 className="NameTitle"></h1>
         </Box>
         <Spacer />
-        <Button>
-          <h2>Inicio</h2>
-        </Button>
+        <Button className="Btn">Inicio</Button>
         <Spacer />
-        <Box>
-          <h2>Guias</h2>
-        </Box>
+        <Button className="Btn">Guias</Button>
+
         <Spacer />
 
         <Menu>
-          <MenuButton rightIcon={<MdKeyboardArrowDown />}>
+          <MenuButton
+            as={Button}
+            rightIcon={<MdKeyboardArrowDown />}
+            className="Btn"
+          >
             Simuladores
           </MenuButton>
           <MenuList>
@@ -48,6 +49,7 @@ const NavBar = () => {
             <MenuItem>Área de Ciencias sociales y humanidades</MenuItem>
           </MenuList>
         </Menu>
+
         <Spacer />
         <Box>
           <CartWidget />
@@ -56,8 +58,7 @@ const NavBar = () => {
         <Spacer />
 
         <ButtonGroup gap="2">
-          <Button colorScheme="teal">Sign Up</Button>
-          <Button colorScheme="teal">Log in</Button>
+          <Button className="Btn">Sign Up/Log in</Button>
         </ButtonGroup>
       </Flex>
     </div>
