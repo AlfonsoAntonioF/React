@@ -117,8 +117,25 @@ button:before{
     background: #206592;
   } */
   .Btn:hover:nth-child(n){
-    /* background: #ce5c0c; */
+   
     background: #206592;
   }
 
-  
+  .itemListContainer{
+    display: flex;
+    background-color: #206592;
+    height: 80vh;
+    align-content: center;
+    text-align: center;
+    color: #f2f2f2;
+  }
+
+  .itemListContainer .Title{
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    padding: auto;
+    
+
+  }
