@@ -124,7 +124,7 @@ button:before{
   .itemListContainer{
     display: flex;
     background-color: #206592;
-    height: 80vh;
+    height: auto;
     align-content: center;
     text-align: center;
     color: #f2f2f2;
@@ -139,3 +139,6 @@ button:before{
     
 
   }
+  
+
+  

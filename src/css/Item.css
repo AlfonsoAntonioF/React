@@ -1,0 +1,32 @@
+.Card{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+
+}
+.Item{
+    
+    margin: 2rem;
+    display: inline-flex;
+}
+.TitulosCard{
+    font-size: 2rem;
+    color: rgb(7, 7, 119);
+}
+.precioTitle{
+    font-weight: 10px;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+.buttonPlos{
+    background-color: none;
+    box-shadow: 0.3em 0.3em 0 0 #05495a, inset 0.3em 0.3em 0 0 #05495a;
+    color: aqua;
+  }
+
+  .buttonPlos:hover, .buttonPlos:focus {
+    box-shadow: 0 0 0 0 #013152, inset 6em 3.5em 0 0 #013152;
+    color: aliceblue;
+  }

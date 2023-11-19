@@ -13,18 +13,22 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div>
       <Flex className="NabVar">
         <Box>
+          <Link to="/">
+          
           <Image
             className="logo"
             borderRadius="full"
             src="../src/assets/logo1.png"
             alt="GENIUM"
           />
+          </Link>
           <h1 className="NameTitle"></h1>
         </Box>
         <Spacer />
@@ -43,10 +47,23 @@ const NavBar = () => {
             Simuladores
           </MenuButton>
           <MenuList>
-            <MenuItem>Área de Ingeniería y ciencias exactas</MenuItem>
-            <MenuItem>Área de Ciencias naturales y de la salud</MenuItem>
+            <NavLink to={`/category/exactas`} >
+              <MenuItem>Área de Ingeniería y ciencias exactas</MenuItem>
+            </NavLink>
+            <NavLink to={`/category/humanidades`}>
+              <MenuItem>Área de Ciencias sociales y humanidades</MenuItem>
+            </NavLink>
+            <NavLink to={`/category/naturales`}>
+              <MenuItem>Área de Ciencias Naturales y de la salud</MenuItem>
+            </NavLink>
+            <NavLink to={`/category/admin`}>
+              <MenuItem>Área de Económico-administrativas</MenuItem>
+            </NavLink>
+            
+            
+            {/* <MenuItem>Área de Ciencias naturales y de la salud</MenuItem>
             <MenuItem>Área de Económico-administrativas</MenuItem>
-            <MenuItem>Área de Ciencias sociales y humanidades</MenuItem>
+            <MenuItem>Área de Ciencias sociales y humanidades</MenuItem> */}
           </MenuList>
         </Menu>
 
