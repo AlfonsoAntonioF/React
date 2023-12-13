@@ -32,7 +32,11 @@ const NavBar = () => {
           <h1 className="NameTitle"></h1>
         </Box>
         <Spacer />
+
+        <Link to='/'>
+
         <Button className="Btn">Inicio</Button>
+          </Link>
         <Spacer />
         <Button className="Btn">Guias</Button>
 

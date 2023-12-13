@@ -1,0 +1,44 @@
+.form-container {
+    max-width: 30vw;
+    margin: auto;
+  }
+  
+  .formCheckout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+    border-color: #45a049;
+    border-radius: 15px;
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgba(1, 20, 96, 0.8);
+    border-radius: 20px;
+    
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

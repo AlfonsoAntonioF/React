@@ -24,7 +24,7 @@ const Item = ({id, name, description, precio, area, image, categoria }) => {
             <Card className='Card' maxW='sm'>
   <CardBody>
     <Image
-      src={`../src/assets/${image}`}
+      src={`${image}`}
       alt='Green double couch with wooden legs'
       borderRadius='lg'
     />

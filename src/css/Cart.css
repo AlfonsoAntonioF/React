@@ -1,0 +1,23 @@
+/* Agrega estilos a tu componente CartItem */
+.itemCard {
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid #a30f0f;
+  }
+  
+  .itemCard img {
+    margin: 1rem;
+    width: 300%;
+  }
+
+.itemCard Tr{
+    width: 100;
+    align-content: space-around;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+
+}
+
